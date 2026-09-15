@@ -103,27 +103,11 @@ A threshold match identifies a candidate for investigation. It does not independ
 
 This query does not automatically generate Sentinel alerts or incidents. Those require a configured analytics rule and incident settings.
 
-## Saved KQL Queries
-
-| Query | Purpose |
-|---|---|
-| [Failed-login threshold] | Identifies sources exceeding the failure threshold |
-| [Source investigation] | Examines authentication outcomes for a selected source |
-| [Privileged activity] | Searches account-related activity that IP-only filtering may miss |
-| [Workbook source totals] | Prepares failure counts for a bar chart |
-| [Workbook timeline] | Groups failures by original event time |
-| [Proposed scheduled detection] | Applies a time-based threshold to imported data |
-| [Ingestion validation]| Checks imported-table availability and schema |
-
-Queries 01–03 require the supplied `MeridianLogs` datatable definition. Queries 04–05 include that definition. Queries 06–07 require the imported table.
-
-The proposed scheduled detection and workbook queries require validation in Azure before being described as implemented.
-
 ## Investigation Approach
 
 For each source, I examined:
 
-- The targeted account or accounts.
+- The targeted accounts.
 - The number and timing of authentication failures.
 - Whether successful authentication followed the failures.
 - Related account and host activity.
