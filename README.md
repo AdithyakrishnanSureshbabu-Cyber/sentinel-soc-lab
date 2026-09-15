@@ -191,10 +191,6 @@ Correlating the account, host and time provided a more complete investigation th
 
 Accurate reporting required separating observed evidence, scenario context, analyst interpretation and proposed response actions.
 
-## Attribution
 
-**Analyst:** Adithyakrishnan Sureshbabu  
-**Portfolio:** Project 4  
-**Training source:** MyFirstHack Mentorship — Weekly Project 05
 
 The fictional scenario and sample logs were supplied as training material. This project does not represent employment at Meridian Trust Bank or a production security engagement.
