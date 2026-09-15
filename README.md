@@ -163,19 +163,6 @@ These actions are recommendations. Containment and remediation were not executed
 - Test alert creation, entity mapping, incident ownership and escalation.
 - Document authorised containment, recovery and follow-up actions.
 
-## Implementation Status
-
-| Capability | Status |
-|---|---|
-| Azure and Sentinel setup | Documented |
-| Manual KQL analysis of the fallback dataset | Documented |
-| Investigation findings and response recommendations | Documented |
-| Persistent custom-table ingestion | Not yet verified |
-| Scheduled analytics rule and generated alerts | Not yet verified |
-| Incident-queue investigation | Not yet verified |
-| Saved workbook dashboard | Not yet verified |
-| Containment and remediation | Recommended, not executed |
-
 ## Investigation Report
 
 The report includes the investigation summary, detection logic, source-by-source assessments, screenshot evidence, MITRE ATT&CK mappings, recommended responses and detection limitations.
