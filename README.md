@@ -1,6 +1,5 @@
 # Microsoft Sentinel | SSH Detection and Investigation
 
-**SOC Portfolio Project · Adithyakrishnan Sureshbabu**
 
 An investigation of simulated Linux authentication activity using Microsoft Sentinel and Kusto Query Language (KQL). This project demonstrates identifying suspicious login patterns, evaluating evidence and documenting response recommendations.
 
