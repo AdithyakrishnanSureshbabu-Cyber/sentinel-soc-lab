@@ -107,13 +107,13 @@ This query does not automatically generate Sentinel alerts or incidents. Those r
 
 | Query | Purpose |
 |---|---|
-| [Failed-login threshold](queries/01_failed_login_threshold.kql) | Identifies sources exceeding the failure threshold |
-| [Source investigation](queries/02_triage_source.kql) | Examines authentication outcomes for a selected source |
-| [Privileged activity](queries/03_privileged_activity.kql) | Searches account-related activity that IP-only filtering may miss |
-| [Workbook source totals](queries/04_workbook_top_sources_inline.kql) | Prepares failure counts for a bar chart |
-| [Workbook timeline](queries/05_workbook_event_timeline_inline.kql) | Groups failures by original event time |
-| [Proposed scheduled detection](queries/06_lab_scheduled_rule_candidate.kql) | Applies a time-based threshold to imported data |
-| [Ingestion validation](queries/07_verify_ingestion.kql) | Checks imported-table availability and schema |
+| [Failed-login threshold] | Identifies sources exceeding the failure threshold |
+| [Source investigation] | Examines authentication outcomes for a selected source |
+| [Privileged activity] | Searches account-related activity that IP-only filtering may miss |
+| [Workbook source totals] | Prepares failure counts for a bar chart |
+| [Workbook timeline] | Groups failures by original event time |
+| [Proposed scheduled detection] | Applies a time-based threshold to imported data |
+| [Ingestion validation]| Checks imported-table availability and schema |
 
 Queries 01–03 require the supplied `MeridianLogs` datatable definition. Queries 04–05 include that definition. Queries 06–07 require the imported table.
 
